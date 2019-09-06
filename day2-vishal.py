@@ -1,4 +1,6 @@
-my_fullname=input("Enter your full name ")
-
-first_name=(my_fullname[:first_name])
-print(first_name)
+name =input("enter your name") 
+LastName = name.split()[1]
+middle_name=name.split()[0]
+print(LastName)
+print(middle_name)
+print

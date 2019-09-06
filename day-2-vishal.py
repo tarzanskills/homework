@@ -1,10 +1,14 @@
 from datetime import date
+
 print ("Please enter your birthday ")
-birth_year=str(input("Year:"))
-birth_month=str(input("Month:"))
-birth_day=str(input("Date:"))
+
+birth_year=int(input("Year:"))
+birth_month=int(input("Month:"))
+birth_day=int(input("Date:"))
+#current_year=datetime.datetime.now().Year
 now = date.today ()
 
-age = date(str(birth_year), str(birth_month),str(birth_year))
+age = date(int(birth_year), int(birth_month),int(birth_day))
+
 print ("Your age is " + str(now-age))
-print (int(now-age)*12)
+print ((now-age)*60*60*24)
