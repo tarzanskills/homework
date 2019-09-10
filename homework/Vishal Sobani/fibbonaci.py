@@ -22,15 +22,15 @@ while count < nterms:
 
 """To print the nth index of fibonnaci series"""
 
-start = 0
-end = 1
-list_length = []
-while True:
-    fib_series = start + end
-    start = end
-    end = nth_term
-    length = str(nth_term)
-    list_length.append(length)
-    if len(length) >= 1000:
-        print("Then index at 1000th is",len(list_length) + 1)
-        break
+# start = 0
+# end = 1
+# list_length = []
+# while True:
+#     fib_series = start + end
+#     start = end
+#     end = nth_term
+#     length = str(nth_term)
+#     list_length.append(length)
+#     if len(length) >= 1000:
+#         print("Then index at 1000th is",len(list_length) + 1)
+#         break

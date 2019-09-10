@@ -1,9 +1,8 @@
-start_number=int(input("Enter the starting range of the series "))
-end_number=int(input("Enter the end range of the series "))
+input=int(input("Enter the age of dog's age in humar year "))
 
-sum_of_even=0
-for value in range(start_number,end_number):
-    if value%2==0:
-        sum_of_even+=value
-print(sum_of_even)
+if input<=2:
+    dog_age=input*10.5
+else:
+    dog_age=2*10.5 + 4 * (input -2)
 
+print("the dog's age in years is ",dog_age)
