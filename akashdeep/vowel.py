@@ -1,12 +1,11 @@
-def vowel_count(s):
+def vowel_check(s):
     s = s.lower()
-    count = 0
-    for i in s:
-        if i in "aeiou":
-            return i
-        print(i)
+    if s == 'a' or s == 'e' or s == 'i' or s=='o' or s == 'u':
+        print("vowel")
+    else:
+        print("consonant")
 
 
+s = input("enter a string:")
 
-s = input("enter a string")
-print(vowel_count(s))
+print(vowel_check(s))
