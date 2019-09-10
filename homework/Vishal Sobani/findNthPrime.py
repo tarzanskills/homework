@@ -1,6 +1,8 @@
 prime_count = 2
 starting_number = 3
 
+
+
 while prime_count <= 10001:
     for value in range (2, starting_number):
         is_prime = True

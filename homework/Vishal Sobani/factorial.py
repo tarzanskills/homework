@@ -1,6 +1,6 @@
 
 def factorial(number):
-
+    fact = 1
     if number<0:
         print()
     elif number==0:
@@ -8,15 +8,18 @@ def factorial(number):
     else:
         for value in range(1,number+1):
             fact = fact * value
+        return fact
 
-    sum = 0
+def sum_of_factorial(number):
+    sum=0
     while number > 0:
-        sum = sum + fact % 10
-        fact = fact / 10
-
-fact = 1
-print("the factorial of a number is ",fact)
+        remainder= number % 10
+        sum=sum + remainder
+        number = number // 10
+    return sum
 
 number=int(input("Enter the number "))
-print(factorial(number))
-print(sum)
+print("the factorial of a number is ",factorial(number))
+sum_of_fact= factorial(number)
+print("SUm of digits in fact ", sum_of_factorial(sum_of_fact))
+

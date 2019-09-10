@@ -20,6 +20,6 @@ def diff_in_them(first_num,sec_num):
        return sec_num-first_num
 
 number = int(input("Enter the integer "))
-print(f"Sum of {number} are ",sum_of_integers(number))
-print(f"Square of {number} are ",square_of_integers(number))
+print(f"Sum of first {number} natural numbers are ",sum_of_integers(number))
+print(f"Square of first {number} natural are ",square_of_integers(number))
 print(f"Difference between {number} and {number} is ",diff_in_them(sum_of_integers(number),square_of_integers(number)))
