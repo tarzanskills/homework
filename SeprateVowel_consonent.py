@@ -13,6 +13,6 @@ for character in string_input:
         vowel_string = vowel_string + character
     else:
         consonants_string = consonants_string + character
-print (vowel_string)
-print (consonants_string)
+print (vowel_string+consonants_string)
+
 
