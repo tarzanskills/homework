@@ -17,7 +17,7 @@ def divide(num1,num2):
 
 num1=int(input("enter the value of num1: "))
 num2=int(input("enter the value of num2: "))
-s
+
 operation = input("Select operation that you want to perform: ")
 
 if operation == "add":
