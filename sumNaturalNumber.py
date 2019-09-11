@@ -6,6 +6,8 @@
 #print("The differance of them")
 #differance=(sum_of_Square-square_of_number_sum)
 #print(differance)
+
+
 input_value=int(input("Enter the value : "))
 start_value=1
 sum_naturalNum=0
