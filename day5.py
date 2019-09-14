@@ -62,33 +62,36 @@
 
 
 
-input_value1 = int(input("Enter the value : "))
-input_value2 = int(input("Enter the value : "))
+# input_value1 = int(input("Enter the value : "))
+# input_value2 = int(input("Enter the value : "))
+#
+# count=0
+# rev=0
+# sum1=0
+# sum2=0
+# sum3=0
+#
+# order_of_value1 =len(str(input_value1))
+# order_of_value2=len(str(input_value2))
+# while input_value1 > 0:
+#    digit1 = input_value1 % 10
+#    sum1 += digit1 ** order_of_value1
+#    input_value1 //= 10
+# while input_value2 > 0:
+#    digit2 = input_value2 % 10
+#    sum2+= digit2 ** order_of_value2
+#    input_value1 //= 10
+# sum_of_both=sum1+sum2
+# order=len(str(sum_of_both))
+# while sum_of_both > 0:
+#     digit = input_value2 % 10
+#     sum3 += digit ** order
+#     input_value1 //= 10
+# if sum3==sum_of_both :
+#     print(sum3)
 
-count=0
-rev=0
-sum1=0
-sum2=0
-sum3=0
 
-order_of_value1 =len(str(input_value1))
-order_of_value2=len(str(input_value2))
-while input_value1 > 0:
-   digit1 = input_value1 % 10
-   sum1 += digit1 ** order_of_value1
-   input_value1 //= 10
-while input_value2 > 0:
-   digit2 = input_value2 % 10
-   sum2+= digit2 ** order_of_value2
-   input_value1 //= 10
-sum_of_both=sum1+sum2
-order=len(str(sum_of_both))
-while sum_of_both > 0:
-    digit = input_value2 % 10
-    sum3 += digit ** order
-    input_value1 //= 10
-if sum3==sum_of_both :
-    print(sum3)
+
 
 
 
