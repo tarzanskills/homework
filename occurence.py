@@ -6,7 +6,7 @@ for i in range(n):
 print(list)
 
 def  occurence(list,item,i=0):
-    item=int(input("enter the item to be checked in list:"))
+
     if i >= len(list):
         return False
     elif list[i] == item:
@@ -14,4 +14,5 @@ def  occurence(list,item,i=0):
     else:
         return occurence(list,item,i+1)
 
-occurence(elements)
+item=int(input("enter the item to be checked in list:"))
+occurence(list[i])
