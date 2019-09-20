@@ -20,3 +20,30 @@ class College:
 bits = College(False, 1928, 9, 275000.00, 5050)
 print("The college has", bits.number_of_students)
 print(bits.get_type())
+
+class Staff:
+    def __init__(self, name, department, qualification, experience, designation):
+        self.name = name
+        self.department = department
+        self.qualification = qualification
+        self.experience = experience
+        self.designation = designation
+
+    def teach(self):
+        print("teaches the student")
+    def guide(self):
+        print("gives advice to the student")
+
+
+class Student
+    def __init__(self, name, department, marks, roll_number):
+        self.name = name
+        self.department = department
+        self.marks = marks
+        self.roll_number
+
+    def learn(self):
+        print("learns the subjects")
+
+    def sleep_in_class(self):
+        print("sleep in class")
