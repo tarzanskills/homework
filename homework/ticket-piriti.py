@@ -27,8 +27,8 @@ class Movie:
         self.name = name
         self.language = language
 
-kabirsingh = Movie('Kabir singh', 'Hindi')
-pvr = Screen('bengaluru', 'screen-1', AIRising)
+kabirsingh = Movie('KabirSingh', 'hindi')
+pvr = Screen('bengaluru', 'screen-1', )
 a1 = Seat('A1', pvr)
-ticket_1 = Ticket('1.30 pm', kabirsingh, a1, 3300)
-customer_1 = Customer('#02',"Priti Pandey",ticket_1)
+ticket_1 = Ticket('1.30 pm', kabirsingh, a1, 300)
+customer_1 = Customer('#01',"PritiPandey",ticket_1)
